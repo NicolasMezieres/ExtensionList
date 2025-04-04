@@ -1,0 +1,22 @@
+@media only screen and (max-width: 640px) {
+  body {
+    padding: 20px;
+  }
+  main {
+    margin-top: 20px;
+  }
+  .categoriesList {
+    flex-direction: column;
+  }
+  .categoriesListBtns {
+    justify-content: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
